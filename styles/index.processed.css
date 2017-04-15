@@ -1,0 +1,114 @@
+body {
+  background-color: #dfdce3;
+  background-image: -webkit-linear-gradient(-60deg, #fc4a1a 35%, #dfdce3 35%);
+  font-family: "Roboto", sans-serif;
+}
+
+p {
+  font-size: 18px;
+  color: #111111;
+}
+
+.header-text {
+  margin: 0px;
+  margin-top: 150px;
+  text-align: center;
+  font-weight: bold;
+  font-size: 60px;
+}
+
+.header-sub {
+  text-align: center;
+  font-weight: normal;
+}
+
+.header {
+  height: 100%;
+}
+
+.header-title {
+  margin-top: 10vh;
+  color: #dfdce3;
+}
+
+.space {
+  height: 600px;
+  min-height: 50vh;
+  background: url("https://unsplash.it/2000/450?random") no-repeat center center transparent;
+}
+
+.who-explain {
+  text-align: justify;
+  margin-left: 9vw;
+  margin-right: 9vw;
+}
+
+.person-img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  background: url(https://placehold.it/200x200) no-repeat;
+  margin-bottom: 10px;
+}
+
+.meet-everyone {
+  margin-bottom: 100px;
+}
+
+.carousel-inner>.item>img,
+.carousel-inner>.item>a>img {
+  height: 400px;
+  margin: auto;
+}
+
+.carousel {
+  background: none;
+}
+
+.carousel-control.left,
+.carousel-control.right {
+  filter: none !important;
+  background-image: none;
+  outline: 0;
+  opacity: 1;
+  color: black;
+}
+
+.carousel-caption {
+  display: inline-block;
+  margin-bottom: -20px;
+  color: #fff !important;
+  text-shadow: 1px 1px 1px black;
+}
+
+.carousel-caption>p {
+  text-align: justify;
+  color: #fff;
+}
+
+.carousel-indicators {
+  margin-bottom: -20px;
+  color: #111 !important;
+}
+
+.help-title {
+  margin-top: 100px;
+}
+
+.help-info {
+  margin-left: 9vw;
+  margin-right: 9vw;
+  text-align: justify;
+  margin-bottom: 100px;
+}
+
+.donate-btn {
+  height: 50px;
+  font-size: 20px;
+}
+
+.contact-info {
+  margin-bottom: 50px;
+}
